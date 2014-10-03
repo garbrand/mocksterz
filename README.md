@@ -1,0 +1,1 @@
+The `build/` folder should contain a crosig build and is served out on the root.
