@@ -1,0 +1,22 @@
+{
+  "name": "mockServices",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "forever": "forever -w server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "cookie-parser": "^1.3.3",
+    "csurf": "^1.6.1",
+    "express": "^4.9.5",
+    "express-session": "^1.8.2"
+  },
+  "devDependencies": {
+    "forever": "^0.11.1"
+  }
+}
